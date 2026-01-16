@@ -157,8 +157,10 @@ plt.close()
 
 ```
 Saved output:
+scatter plot high-low![High vs Low Relationship Scatter Plot](high-low%20relationship%20scatter%20plot.png)
 
-scatter_open_close.png
+scatter_open_close.png ![Open vs Close Relationship Scatter Plot](open%20vs%20close%20relationship%20scatter%20plot.png)
+
 
 ### 6 Correlation Analysis
 
