@@ -108,6 +108,7 @@ plt.title("Boxplot of Prices")
 plt.show()
 ```
 Boxplots were used to detect outliers and variability in prices.
+![Boxplot of Stock Prices](Boxplot.png)
 ### 5 Scatter Plot Analysis (Relationships)
 
 A random sample of 1,000 rows was used to improve visualization clarity:
