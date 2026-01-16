@@ -99,6 +99,8 @@ plt.show()
 ```
 This visualized the distribution of each price variable.
 
+![Histogram of Stock Prices](Histogram.png)
+
 Boxplots
 ``` python
 df_num.boxplot(figsize=(8,6))
