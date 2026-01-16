@@ -124,6 +124,8 @@ plt.ylabel("Close Price")
 plt.title("Open vs Close Relationship (Sample 1k rows)")
 plt.show(block=True)
 ```
+scatter_open_close.png ![Open vs Close Relationship Scatter Plot](open%20vs%20close%20relationship%20scatter%20plot.png)
+
 High vs Low
 ``` python
 plt.figure(figsize=(10,6))
@@ -133,6 +135,8 @@ plt.ylabel("Low Price")
 plt.title("High vs Low Relationship (Sample 1k rows)")
 plt.show(block=True)
 ```
+scatter plot high-low![High vs Low Relationship Scatter Plot](high-low%20relationship%20scatter%20plot.png)
+
 Open vs High
 ```python
 plt.figure(figsize=(10,6))
@@ -143,7 +147,8 @@ plt.title("Open vs High Relationship (Sample 1k rows)")
 plt.show(block=True)
 
 ```
-One scatter plot was also saved as an image:
+![Open vs High Scatter Plot Relationship](https://github.com/Chisom-Okoli/Stock-Price-EDA-Internship/blob/main/open%20vs%20high%20scatter%20plot%20relationship.png?raw=true)
+
 ``` python
 plt.figure(figsize=(10,6))
 plt.scatter(sample_df['open'], sample_df['close'], alpha=0.3)
@@ -156,12 +161,6 @@ r"C:\Users\DELL\Desktop\Internship Task\scatter_open_close.png"
 plt.close()
 
 ```
-Saved output:
-scatter plot high-low![High vs Low Relationship Scatter Plot](high-low%20relationship%20scatter%20plot.png)
-
-scatter_open_close.png ![Open vs Close Relationship Scatter Plot](open%20vs%20close%20relationship%20scatter%20plot.png)
-
-
 ### 6 Correlation Analysis
 
 Correlation matrix was computed using:
@@ -182,10 +181,17 @@ r"C:\Users\DELL\Desktop\Internship Task\correlation_heatmap.png"
 )
 plt.close()
 ```
-Saved output:
-
-correlation_heatmap.png
 
 Finding:
 All price variables (open, high, low, close) show very strong positive correlations, which is expected in financial time-series data.
 The correlation matrix shows near-perfect positive correlations (≈0.999) among open, high, low, and close prices, indicating that these variables move almost together. This suggests they capture closely related aspects of daily stock price behavior rather than independent information.”
+
+## Conclusion
+
+This repository demonstrates an Exploratory Data Analysis (EDA) of historical stock prices using Python. 
+It includes statistical summaries, visualizations (histograms, boxplots, scatter plots), and a correlation analysis. 
+
+The project highlights patterns and relationships between stock price variables and provides insights for further analysis or modeling.
+
+
+
