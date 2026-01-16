@@ -168,7 +168,7 @@ Correlation matrix was computed using:
 corr_matrix = df_num.corr()
 print(corr_matrix)
 ```
-A heatmap was generated and saved:
+A heatmap was generated:
 ``` python
 plt.figure(figsize=(6,5))
 plt.imshow(corr_matrix, cmap='coolwarm', interpolation='none')
@@ -181,6 +181,10 @@ r"C:\Users\DELL\Desktop\Internship Task\correlation_heatmap.png"
 )
 plt.close()
 ```
+
+This heatmap shows the correlation between price variables (open, high, low, close):
+
+![Correlation Heatmap](https://github.com/Chisom-Okoli/Stock-Price-EDA-Internship/blob/main/correlation_heatmap.png?raw=true)
 
 Finding:
 All price variables (open, high, low, close) show very strong positive correlations, which is expected in financial time-series data.
